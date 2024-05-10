@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #7469B6;
+            padding: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            background-image: url("artistic.jpg");
+        }
+
+        h1{
+            color: #FFE6E6;
+        }
+        button{
+            background-color: #AD88C6;
+            border: 0px;
+            border-radius: 10px;
+            font-size: 25px;
+            display: fix;
+            color: #FFE6E6;
+            margin: 20px;
+        }
+        button:hover{
+            font-size: 30px;
+            background-color: #ad88c656;
+        }
+        div{
+            border: 0px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.379);
+            padding: 20px;
+        }
+    </style>
+    <div>
+    <h1>DO YOU WANNA EAT NOODLES THAT I MADE? BAKABY</h1>
+    <button onclick="gotonextpage()">YES</button>
+    <button onclick="goBack()">NO</button>
+    </div>
+
+    <script>
+        function goBack() {
+           window.location.href= "birthday4.html";
+        }
+    </script>
+    <script>
+        function gotonextpage() {
+            window.location.href= "birthday3.html";
+        }
+    </script>
+</body>
+</html>
